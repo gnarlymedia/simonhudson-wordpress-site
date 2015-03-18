@@ -1,0 +1,16 @@
+/*  
+Theme Name: Simon Hudson Upstart Theme
+Theme URI: http://www.simonhudson.com.au/
+Version: 1.0
+Description: Custom Theme based on Upstart
+Author: GnarlyMedia
+Author URI: http://www.gnarlymedia.com.au
+Template: upstart
+
+*/
+
+/* Default styles */
+
+@import "../upstart/style.css";
+
+/*-------------------------------------------------------------------------------------------*/

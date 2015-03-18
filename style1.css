@@ -1,0 +1,316 @@
+#main .widget_woothemes_testimonials .testimonials-list .quote .testimonials-text .author {
+	//color: none;
+}
+header.archive-header {
+	display: none;
+}
+header#header a#logo {
+	margin:0;
+}
+section.homepage-contact ul li.email {
+	display: none;
+}
+section#main article.page header {
+	display: none;
+}
+#player {
+	margin: 0 auto;
+	/*text-align:center;*/
+}
+#post-author, .post-meta, ul#main-nav {
+	display:none;
+}
+header#header {
+	z-index: inherit;
+}
+.adp_classic_row1 {
+	background: #354252;
+}
+#navigation {
+	height: inherit;
+}
+header#header a#logo {
+	padding: 10px 0;
+}
+section#main div.featured-image:after {
+        bottom: 0;
+	height: 0;
+}
+.home #mc4wp-form-1 > form > p {
+        clear: both;
+}
+.home #text-7 > div > p {
+	margin-top:1.5em;
+}
+.home #mc4wp-form-1 > form > img {
+        margin-bottom: 10%;
+        float:left;
+}       
+.page #mc4wp-form-1 > form {
+	padding: 5%;
+	background: #efefef;
+	border-radius: 5px;
+}
+.page #mc4wp-form-1 > form > img {
+	margin-right: 5%;
+	margin-bottom: 20%;
+	float:left;
+	border:1px solid #;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.single-post #main > div.content-box > article > section > p > img.alignright {
+        border:1px solid #;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+	margin: 0 0 1.5em 1.5em;
+}
+.single-post #main > div.content-box > article > section > p > img.alignleft {
+        border:1px solid #;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        margin: 0 1.5em 1.5em 0;
+}
+.adp_classic_row1 {
+	background: #e6e6e6;
+	font-size: 0.9em;
+}
+div.adp_w_date_time {
+	background: #ccc;
+	padding-left: 0.8em;
+}
+
+.video-container {
+        position: relative;
+        padding-bottom: 56.25%;
+        padding-top: 0;
+	height: 0;
+	overflow: hidden;
+}
+.video-container iframe,
+.video-container object,
+.video-container embed {
+        position: absolute;
+        top: 0;
+	left: 0;
+        max-width: 100%;
+        max-height: 100%;
+}
+
+@media screen and (max-width: 767px) {
+        #featured-slider > ul > li > div {
+                margin-top: -20px;
+        }
+	#featured-slider > ul > li > div.slide-content {
+        	padding: 0;
+	}
+	#player > div.controls-wrapper > div.title > header > div > h1 {
+		width: 50% !important;
+	}
+	#mc4wp-form-1 {
+		padding: 2em 1em 0 1em;
+	}
+	#mc4wp-form-1 > form > p:nth-child(4) > input[type="submit"] {
+		color: #666;
+		border-color: #666;
+	}
+	#mc4wp-form-1 > form > p:nth-child(4) {
+		text-align: center;
+	}
+	#featured-slider > ul > li > div.slide-content.animated.fadeInUp > div > p {
+		padding: 1em;
+		text-align: center;
+		background: #666;
+		border: 1px solid #666;
+                border-radius: 15px;
+                padding: 1em;
+		margin: 0 1em 1em 1em;
+	}
+        ul#top-nav *:nth-child(n+8) {
+                display: block;
+        }
+        ul#top-nav *:nth-child(n+10) {
+		font-size: 2em;
+        }
+	#top-nav > *:nth-child(n+8) {
+        	padding-top: .5em;
+        	padding-right: .6em;
+	}
+	#top-nav > a:nth-child(8) {
+        	/* Bandcamp */
+        	padding-top: 1.2em !important;
+        	padding-left: 1.7em;
+       		padding-bottom: .5em;
+	}
+	/* Reverbnation*/
+	#top-nav > a:nth-child(9) {
+        	padding-top: .7em;
+        	padding-left: 1.1em;
+       		padding-bottom: .5em;
+	}
+	#top-nav > a:nth-child(10),
+	#top-nav > a:nth-child(11),
+	#top-nav > a:nth-child(12) {
+        	padding-top: .3em !important;
+        	padding-left: 1em;
+       		padding-bottom: .1em;
+	}
+	#top .top-navigation .social {
+        	padding: .75em 0 .75em 0 !important;
+        	margin-left: .5em !important;
+	}
+	#top-nav > a:nth-child(8) > img {
+        	width: 6em;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	ul#top-nav *:nth-child(n+8) {
+		float: left;
+		font-size: 1.1em;
+	}
+        #top-nav > *:nth-child(n+8) {
+                padding-top: .5em;
+                padding-right: .6em;
+                padding-left: .6em;
+        	padding-bottom: .5em;
+        }
+        #top-nav > a:nth-child(8) {
+                /* Bandcamp */
+                padding-top: 1.2em !important;
+        }
+        /* Reverbnation*/
+        #top-nav > a:nth-child(9) {
+                padding-top: .7em;
+        }
+        #top-nav > a:nth-child(10),
+        #top-nav > a:nth-child(11),
+        #top-nav > a:nth-child(12) {
+                padding-top: .8em !important;
+        }
+        #top .top-navigation .social {
+                padding: .75em 0 .75em 0 !important;
+                margin-left: .5em !important;
+        }
+        #top-nav > a:nth-child(8) > img {
+                width: 5em;
+        }
+}
+
+@media screen and (min-width: 768px) and (max-width:950px) {
+	#featured-slider > ul > li > div.slide-content {
+        	margin-top: -90px;
+	}
+        #featured-slider > ul > li > div.slide-content {
+		padding: 0;
+	}
+	#mc4wp-form-1 {
+                width: 50%;
+        }
+        #featured-slider > ul > li > div.slide-content.animated.fadeInUp > div > p {
+		margin: 0;
+		font-size: 0.8em;
+                margin-top: 0;
+		width: 100%;
+        }
+	.mc4wp-form {
+		margin: 0 0 0.5em 0;
+	}
+	#mc4wp-form-1 > form > p:nth-child(4),
+	#mc4wp-form-1 > form {
+		margin: 0;
+	}
+}
+
+@media screen and (min-width: 951px) and (max-width:1199px) {
+        #featured-slider > ul > li > div.slide-content {
+                margin-top: -70px;
+        }
+        #featured-slider > ul > li > div.slide-content {
+                padding: 0;
+        }
+        #mc4wp-form-1 {
+                width: 50%;
+        }
+        #featured-slider > ul > li > div.slide-content.animated.fadeInUp > div > p {
+                font-size: 0.9em;
+                text-align: center;
+                margin-top: 1em;
+		width: 50%;
+        }
+	#top > nav > h2 {
+		font-size: 0.5em !important;
+	}
+	ul#top-nav {
+		font-size: 0.8em !important;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+        #featured-slider > ul > li > div.slide-content {
+                padding: 0;
+        }
+	#mc4wp-form-1 {
+                width: 50%;
+        }
+        #featured-slider > ul > li > div.slide-content.animated.fadeInUp > div > p {
+                text-align: center;
+		margin-top: 1em;
+		width: 50%;
+        }
+}
+
+@media screen and (min-width: 767px) and (max-width:952px) {
+        ul#top-nav {
+                font-size: 1em !important;
+        }
+}
+
+@media screen and (min-width: 953px) and (max-width:1003px) {
+        ul#top-nav {
+                font-size: 0.8em !important;
+        }
+}
+
+@media screen and (min-width: 1004px) and (max-width:1055px) {
+        ul#top-nav {
+                font-size: 0.9em !important;
+        }
+}
+
+#top h2.site-description, #top ul.nav > li > a:after {
+	color: #a0b0c1;
+}
+#featured-slider > ul > li > div > div > div > iframe {
+	margin: 0 auto;
+}
+#main > div > article > footer {
+	display: none !important;
+}
+.homepage-contact {
+	display: none;
+}
+a.adp_w_classic_venue {
+	padding: 0.2em;
+}
+.adp_w_classic_show {
+	background-color: #ccc;
+	padding: 0.2em 0.5em;
+}
+.adp_w_classic_show {
+	font-size: 0.9em;
+}
+#bandcamp_player-2 > iframe,
+#bandcamp_player-3 > iframe {
+	margin: 0 auto;
+}
+#bandcamp_player-2.widget,
+#bandcamp_player-3.widget {
+	padding: 1em 0 0 0 !important;
+}
+.home #featured-slider > ul.slides > li.slide.has-image.no-video > div > header > h1 {
+	display: none;
+}
